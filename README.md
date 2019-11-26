@@ -1,11 +1,11 @@
-```
+```markdown
 For the CASE competition, I tried implementing two quantitative strategies on the quantopian quantitative algorithmic trading platform and divided my portfolio asset allocation equally across the two strategies. A brief summary of each strategy is presented below:
 
 1. **Exponential Regression on Momentum**
 
 This strategy looked at momentum as an alpha factor and attempted to get linear coefficients for the log of the asset price as a time series. A snippet of the code is shown below:
 
-![figa](figa.png)
+![](figa.png)
 
  
 As seen, the function returns the annualized slope (multiplied by the r^2 value to incorporate a confidence metric in the result). The strategy quantifies momentum in such a way over two windows: 60 and 90 days (leaving out the last 5 days), averages their momentum scores, and ranks them accordingly to choose the top 10 with the highest momentum score. For portfolio construction, these 10 assets were given equal weighting, for a long position order. It should be noted that while this can be extended to a long-short strategy by selecting the bottom ranked assets, the portfolio presented in the spreadsheet is derived from a simpler long, hold, sell strategy. The backtest is summarized below:
