@@ -1,4 +1,4 @@
-*Disclaimer: The code for these two strategies is taken by referencing youtube tutorials and help quantopian help forums to tweak pre-existing strategies, adding/removing factors and changing hyperparameters. The template for strategy A is taken from Andreas Clenow's quantopian blog post.*
+***Disclaimer: The code for these two strategies is taken by referencing youtube tutorials and help quantopian help forums to tweak pre-existing strategies, adding/removing factors and changing hyperparameters. The template for strategy A is taken from Andreas Clenow's quantopian blog post.***
 
 
 
