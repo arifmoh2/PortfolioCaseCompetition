@@ -1,3 +1,5 @@
+*Disclaimer: The code for these two strategies is taken by referencing youtube tutorials and help quantopian help forums to tweak pre-existing strategies, adding/removing factors and changing hyperparameters. The template for strategy A is taken from Andreas Clenow's quantopian blog post.*
+
 For the CASE competition, I tried implementing two quantitative strategies on the quantopian quantitative algorithmic trading platform and divided my portfolio asset allocation equally across the two strategies. A brief summary of each strategy is presented below:
 
 1. **Exponential Regression on Momentum**
